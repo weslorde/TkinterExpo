@@ -1,7 +1,7 @@
 import google.generativeai as genai
 
 # Substitua pela sua chave da API
-genai.configure(api_key="AIzaSyCqN2F-KV49jzUfdl1_kkzpJiPT3eUNVcI")
+genai.configure(api_key="COLOCAR API KEY AQUI")
 
 # Crie o modelo de texto
 model = genai.GenerativeModel("gemini-2.0-flash")

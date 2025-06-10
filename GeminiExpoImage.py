@@ -2,7 +2,7 @@ import google.generativeai as genai
 import PIL.Image
 
 # Configure sua API key
-genai.configure(api_key="AIzaSyCqN2F-KV49jzUfdl1_kkzpJiPT3eUNVcI")
+genai.configure(api_key="COLOCAR API KEY AQUI")
 
 # Carregue a imagem com PIL (ou qualquer biblioteca compatível)
 image = PIL.Image.open("C:/Users/WesPC/Desktop/TkinterExpo/foto_tkinter.jpg")
